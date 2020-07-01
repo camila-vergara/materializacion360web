@@ -2468,3 +2468,15 @@ select.mobile-device {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
 }
+
+.img-fluid-logo {
+    max-width: 70%;
+    height: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .img-fluid-logo {
+        max-width: 100%;
+        height: auto;
+    }
+}
