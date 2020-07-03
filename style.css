@@ -2470,7 +2470,16 @@ select.mobile-device {
 }
 
 .img-fluid-logo {
-    max-width: 70%;
+    max-width: 30%;
+    height: auto;
+}
+.img-fluid-logo-3d {
+    max-width: 8%;
+    height: auto;
+    margin-right: -15px;
+}
+img-fluid-servicios {
+    max-width: 100%;
     height: auto;
 }
 
@@ -2478,5 +2487,11 @@ select.mobile-device {
     .img-fluid-logo {
         max-width: 100%;
         height: auto;
+    }
+
+    .img-fluid-logo-3d {
+        max-width: 0%;
+        height: auto;
+        display: none;
     }
 }
