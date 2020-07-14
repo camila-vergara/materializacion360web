@@ -1,0 +1,6 @@
+2020.07.05 03:25:16 INFO  started: Metals version 0.9.1 in workspace '/Applications/XAMPP/xamppfiles/htdocs/materializacion360web'
+2020.07.05 03:25:16 INFO  time: initialize in 0.32s
+2020.07.05 03:25:17 WARN  no build tool detected in workspace '/Applications/XAMPP/xamppfiles/htdocs/materializacion360web'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+jul 05, 2020 3:25:36 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTraceNotification
+2020.07.05 03:35:26 INFO  shutting down Metals
