@@ -260,3 +260,8 @@ $(document)
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
   });
+
+function mostrarPortafolio(url) {
+
+  document.getElementById('viewPortaforlio').src = url;
+}
