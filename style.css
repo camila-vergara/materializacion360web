@@ -2534,3 +2534,55 @@ img-fluid-servicios {
     height: 100%;
     border: none;
   }
+
+
+  .btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .img-thumbnail {
+    padding: 0rem;
+    background-color: #fffffff5;
+    border: 1px solid #dee2e6;
+    border-radius: 0.20rem;
+    max-width: 100%;
+    max-height: 200px;
+    /* height: 10rem; */
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.galeria-close {
+    color: #dee2e6;
+}
+
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fffffff5;
+    background-clip: padding-box;
+    /* border: 1px solid rgba(0,0,0,.2); */
+    /* border-radius: .3rem; */
+    outline: 0;
+
+}
+
+.row.servicios-row {
+    display: flex;
+  justify-content: center;
+}
