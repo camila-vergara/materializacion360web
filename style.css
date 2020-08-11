@@ -2586,3 +2586,7 @@ img-fluid-servicios {
     display: flex;
   justify-content: center;
 }
+
+.col-md-4.col-sm-6.col-lg-4 {
+    margin-top: 10px;
+}
